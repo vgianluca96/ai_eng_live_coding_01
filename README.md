@@ -14,12 +14,12 @@ A set of increasing difficulty scripts were developed, in order to understand ba
 # create python virtual env
 python -v venv .venv
 
-# install dependencies
-pip install -r requirements.txt
-
-# activate env
+# activate virtual env
 cd .venv
 \scripts\activate
+
+# install dependencies
+pip install -r requirements.txt
 
 # to run a file
 python 01_first_call.py
