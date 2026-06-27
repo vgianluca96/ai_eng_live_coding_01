@@ -12,7 +12,7 @@ A set of increasing difficulty scripts were developed, in order to understand ba
 ```powershell
 
 # create python virtual env
-python -v venv .venv
+python -m venv .venv
 
 # activate virtual env
 cd .venv
